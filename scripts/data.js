@@ -1,0 +1,211 @@
+export const data = [
+    {
+        category: 'clothes',
+        name: 'мужские джинсы OG Tapered ',
+        date: '05.16.2023',
+        link: 'https://img.brandshop.ru/cache/products/i/i031098-01-j9-0_496x496.jpg',
+    },
+    {
+        category: 'clothes',
+        name:  'джинсы flowers denim',
+        date: '05.11.2023',
+        link: 'https://img.brandshop.ru/cache/products/b/bgq1233801-0_496x496.jpg',
+    },
+    {
+        category: 'clothes',
+        name:  'кроссовки Acumik',
+        date: '05.17.2023',
+        link: 'https://img.brandshop.ru/cache/products/f/fcrb-230024-b-0_496x496.jpg',
+    },
+    {
+        category: 'clothes',
+        name:  'мужская толстовка Dime',
+        date: '04.12.2023',
+        link: 'https://img.brandshop.ru/cache/products/d/dimesp237mar-0_496x496.jpg',
+    },
+    {
+        category: 'clothes',
+        name:  'мужская толстовка Dime',
+        date: '04.12.2023',
+        link: 'https://img.brandshop.ru/cache/products/d/dimesp2317bar-0_496x496.jpg',
+    },
+    {
+        category: 'clothes',
+        name:  'мужская футболка Dime',
+        date: '04.12.2023',
+        link: 'https://img.brandshop.ru/cache/products/d/dimesp2322ric-0_496x496.jpg',
+    },
+    {
+        category: 'clothes',
+        name:  'мужская ветровка Weekend ',
+        date: '04.12.2023',
+        link: 'https://img.brandshop.ru/cache/products/j/jkss2306-dvgr-0_496x496.jpg',
+    },
+    {
+        category: 'clothes',
+        name:  'мужская куртка maharishi',
+        date: '04.12.2023',
+        link: 'https://img.brandshop.ru/cache/products/4/4304-sdnt-0_496x496.jpg',
+    },
+    {
+        category: 'clothes',
+        name:  'мужская рубашка maharishi',
+        date: '04.12.2023',
+        link: 'https://img.brandshop.ru/cache/products/4/4323-mlt-0_496x496.jpg',
+    },
+    {
+        category: 'clothes',
+        name:  'мужские брюки maharishi',
+        date: '04.12.2023',
+        link: 'https://img.brandshop.ru/cache/products/7/7025-nv-0_496x496.jpg',
+    },
+    {
+        category: 'shoes',
+        name:  'кеды Converse',
+        date: '04.12.2023',
+        link: 'https://img.brandshop.ru/cache/products/a/a01762-0_496x496.jpg',
+    },
+    {
+        category: 'shoes',
+        name:  'кеды Converse',
+        date: '04.12.2023',
+        link: 'https://img.brandshop.ru/cache/products/a/a00427-0_496x496.jpg',
+    },
+    {
+        category: 'shoes',
+        name:  'кеды Converse',
+        date: '04.12.2023',
+        link: 'https://img.brandshop.ru/cache/products/c/csm4028smaw-0_496x496.jpg',
+    },
+    {
+        category: 'shoes',
+        name:  'кроссовки IYSO',
+        date: '04.12.2023',
+        link: 'https://img.brandshop.ru/cache/products/b/bsm3287twms-0_496x496.jpg',
+    },
+    {
+        category: 'shoes',
+        name:  'кроссовки Converse',
+        date: '04.12.2023',
+        link: 'https://img.brandshop.ru/cache/products/a/a01239-0_496x496.jpg',
+    },
+    {
+        category: 'shoes',
+        name:  'кроссовки Premiata',
+        date: '04.12.2023',
+        link: 'https://img.brandshop.ru/cache/products/s/ste06220-0_496x496.jpg',
+    },
+    {
+        category: 'shoes',
+        name:  'кроссовки Premiata',
+        date: '04.12.2023',
+        link: 'https://img.brandshop.ru/cache/products/s/sha00295-0_496x496.jpg',
+    },
+    {
+        category: 'shoes',
+        name:  'кроссовки Diadora',
+        date: '04.12.2023',
+        link: 'https://img.brandshop.ru/cache/products/1/179033-80013-0_496x496.jpg',
+    },
+    {
+        category: 'shoes',
+        name:  'кроссовки Stutterheim',
+        date: '04.12.2023',
+        link: 'https://img.brandshop.ru/cache/products/3/3015-8017-0_496x496.jpg',
+    },
+    {
+        category: 'shoes',
+        name:  'кроссовки Oswen',
+        date: '04.12.2023',
+        link: 'https://img.brandshop.ru/cache/products/o/own2021034-0_496x496.jpg',
+    },
+    {
+        category: 'shoes',
+        name:  'кроссовки Oswen',
+        date: '04.12.2023',
+        link: 'https://img.brandshop.ru/cache/products/o/own2021033-0_496x496.jpg',
+    },
+    {
+        category: 'accessory',
+        name:  'кепка Dime',
+        date: '05.17.2023',
+        link: 'https://img.brandshop.ru/cache/products/d/dimesp2337blk-0_496x496.jpg',
+    },
+    {
+        category: 'accessory',
+        name:  'кошелек Master-piece',
+        date: '05.17.2023',
+        link: 'https://img.brandshop.ru/cache/products/2/223058-040-0_496x496.jpg',
+    },
+    {
+        category: 'accessory',
+        name:  'кошелек Master-piece',
+        date: '05.17.2023',
+        link: 'https://img.brandshop.ru/cache/products/2/223056-040-0_496x496.jpg',
+    },
+    {
+        category: 'accessory',
+        name:  'Носки Master-piece',
+        date: '05.17.2023',
+        link: 'https://img.brandshop.ru/cache/products/1/17512800-04-0_496x496.jpg',
+    },
+    {
+        category: 'accessory',
+        name:  'Носки Master-piece',
+        date: '05.17.2023',
+        link: 'https://img.brandshop.ru/cache/products/1/17518000-04-0_496x496.jpg',
+    },
+    {
+        category: 'accessory',
+        name:  'Носки Master-piece',
+        date: '05.17.2023',
+        link: 'https://img.brandshop.ru/cache/products/1/17518000-05-0_496x496.jpg',
+    },
+    {
+        category: 'accessory',
+        name:  'шапка C.P. Company',
+        date: '05.17.2023',
+        link: 'https://img.brandshop.ru/cache/products/1/14cmac016a000727a-825-0_496x496.jpg',
+    },
+    {
+        category: 'accessory',
+        name:  'балаклава thisisneverthat',
+        date: '05.17.2023',
+        link: 'https://img.brandshop.ru/cache/products/t/tn223ohwot01-nv-0_496x496.jpg',
+    },
+    {
+        category: 'accessory',
+        name:  'шапка Kangol',
+        date: '05.17.2023',
+        link: 'https://img.brandshop.ru/cache/products/k/k5345-icc-0_496x496.jpg',
+    },
+    {
+        category: 'accessory',
+        name:  'шапка Kangol',
+        date: '05.17.2023',
+        link: 'https://img.brandshop.ru/cache/products/k/k4266st-ld-0_496x496.jpg',
+    },
+    {
+        category: 'accessory',
+        name:  'шапка thisisneverthat',
+        date: '05.17.2023',
+        link: 'https://img.brandshop.ru/cache/products/t/tn223bhwot01-bg-0_496x496.jpg',
+    },
+    {
+        category: 'accessory',
+        name:  'шапка thisisneverthat',
+        date: '05.17.2023',
+        link: 'https://img.brandshop.ru/cache/products/t/tn223bhwot01-nv-0_496x496.jpg',
+    },
+    {
+        category: 'accessory',
+        name:  'очки Oliver Peoples',
+        date: '05.17.2023',
+        link: 'https://img.brandshop.ru/cache/products/o/ov5036s-170356-0_496x496.jpg',
+    },
+
+
+]
+export const clothes = data.filter(el => el.category === 'clothes')
+export const shoes = data.filter(el => el.category === 'shoes')
+export const accessory = data.filter(el => el.category === 'accessory')
