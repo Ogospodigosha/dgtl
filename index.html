@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>dgtl</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+</head>
+<body>
+<header class="header">
+    <div class="container">
+       <div class="header__wrapper">
+           <ul class="header__list">
+               <li class="header__item"><a href="#first-point">одежда</a></li>
+               <li class="header__item"><a href="#second-point">обувь</a></li>
+               <li class="header__item"><a href="#third-point">аксессуары</a></li>
+           </ul>
+           <div class="radio-btn">
+               <div class="radio-inner"></div>
+           </div>
+       </div>
+    </div>
+</header>
+<main class="main">
+    <div class="container">
+        <section class="cards">
+            <div class="clothes" id="first-point">
+                <h2 class="title">ОДЕЖДА</h2>
+                <section class="cards__clothes"></section>
+            </div>
+            <div class="clothes" id="second-point">
+                <h2 class="title">ОБУВЬ</h2>
+                <section class="cards__shoes"></section>
+            </div>
+            <div class="accessory" id="third-point">
+                <h2 class="title">АКСЕССУАРЫ</h2>
+                <section class="cards__accessory"></section>
+            </div>
+        </section>
+    </div>
+</main>
+<div class="footer">
+    <div class="container">
+        <ul class="footer__list">
+            <li class="footer__item"><a href="#first-point">одежда</a></li>
+            <li class="footer__item"><a href="#second-point">обувь</a></li>
+            <li class="footer__item"><a href="#third-point">аксессуары</a></li>
+        </ul>
+    </div>
+</div>
+<div class="modal">
+    <div class="modal__title">
+        <h2>Оформление заказа</h2>
+        <button class="modal__close">&times;</button>
+    </div>
+    <form>
+        <div class="modal__container">
+            <div class="count__wrapper">
+                <span class="modal__count">Количество</span>
+                <input class="count" type="number" min="1" required>
+            </div>
+            <div class="color__wrapper">
+                <div class="modal__count">Цвет:</div>
+                <div>
+                    <input type="radio" name="color" value="Зеленый" required >
+                    <label>Зеленый</label>
+                    <br>
+                    <input type="radio" name="color" value="Красный" required >
+                    <label>Красный</label>
+                    <br>
+                    <input type="radio" name="color" value="Желтый" required>
+                    <label>Желтый</label>
+                    <br>
+                </div>
+            </div>
+            <div class="comments__wrapper">
+                <div class="comments">Комментарий:</div>
+                <textarea class="textarea" style="resize: none; height: 50px; "  name="comment"
+                          maxlength="2000"></textarea>
+            </div>
+            <div class="btn__wrapper">
+                <button class="modal__closed modal__close">Закрыть</button>
+                <button class="btn" id="buy__button" type="submit">Купить</button>
+            </div>
+        </div>
+    </form>
+</div>
+<template id='cards-item'>
+    <div class="product__card">
+        <div class="image__wrapper">
+            <img class="cards-item__image" src="" alt="картинка">
+        </div>
+        <div class="cards-item__title"></div>
+        <div class="date-button__wrapper">
+            <div class="cards-item__date"></div>
+            <button class="btn buy" >Купить</button>
+        </div>
+    </div>
+</template>
+<div class="go-top">▲</div>
+<script src="scripts/index.js" type="module"></script>
+</body>
+</html>
